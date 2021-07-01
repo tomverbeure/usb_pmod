@@ -74,8 +74,6 @@ Wire Wire Line
 	3250 2500 3500 2500
 Wire Wire Line
 	3250 2400 3350 2400
-Wire Wire Line
-	7900 1650 7100 1650
 Connection ~ 7100 1650
 $Comp
 L power:GND #PWR013
@@ -564,8 +562,6 @@ D_VPU
 Wire Wire Line
 	5850 2550 5850 2600
 Wire Wire Line
-	6850 4400 7650 4400
-Wire Wire Line
 	5850 2600 7100 2600
 Connection ~ 5850 2600
 Wire Wire Line
@@ -602,8 +598,6 @@ Text Label 6100 4900 0    50   ~ 0
 H_DNR
 Wire Wire Line
 	5600 5350 6850 5350
-Wire Wire Line
-	8800 1950 9150 1950
 $Comp
 L power:GND #PWR015
 U 1 1 5ED917C2
@@ -626,8 +620,6 @@ F 3 " ~" H 9350 4750 50  0001 C CNN
 	1    9200 4800
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 4600 8900 4600
 $Comp
 L power:GND #PWR016
 U 1 1 5EDEDD02
@@ -793,22 +785,18 @@ F 3 "~" H 5000 3950 50  0001 C CNN
 	1    5000 3950
 	1    0    0    -1  
 $EndComp
-Text Label 7300 4400 0    50   ~ 0
+Text Label 7600 4400 0    50   ~ 0
 H_VBUS
 Wire Wire Line
 	7550 4900 8200 4900
 Wire Wire Line
 	7700 4800 8200 4800
-Text Label 8550 4600 0    50   ~ 0
-VBUS
 Wire Wire Line
 	6900 2050 8250 2050
 Wire Wire Line
 	7000 2150 8250 2150
 Text Label 3400 2200 0    50   ~ 0
 D_VM
-Text Label 8800 1950 0    50   ~ 0
-D_VBUS
 $Comp
 L Connector:TestPoint DP1
 U 1 1 60DF3239
@@ -865,4 +853,16 @@ Wire Wire Line
 Connection ~ 8200 4900
 Wire Wire Line
 	8200 4900 8900 4900
+Wire Wire Line
+	8650 1650 8650 1950
+Wire Wire Line
+	7100 1650 8650 1650
+Wire Wire Line
+	8650 1950 9150 1950
+Wire Wire Line
+	8650 4400 8650 4600
+Wire Wire Line
+	6850 4400 8650 4400
+Wire Wire Line
+	8650 4600 8900 4600
 $EndSCHEMATC
