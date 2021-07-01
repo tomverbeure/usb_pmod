@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name custom_parts)(type Legacy)(uri ${KIPRJMOD}/libraries/custom_parts/custom_parts.lib)(options "")(descr ""))
+  (lib (name dk_Interface-Analog-Switches-Special-Purpose)(type Legacy)(uri ${KIPRJMOD}/libraries/digikey-kicad-library/digikey-symbols/dk_Interface-Analog-Switches-Special-Purpose.lib)(options "")(descr ""))
+  (lib (name UltraLibrarian)(type Legacy)(uri ${KIPRJMOD}/libraries/UltraLibrarian/UltraLibrarian.lib)(options "")(descr ""))
+  (lib (name SnapEDA)(type Legacy)(uri ${KIPRJMOD}/libraries/snapeda/snapeda.lib)(options "")(descr ""))
+)

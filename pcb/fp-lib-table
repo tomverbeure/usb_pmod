@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name custom_parts)(type KiCad)(uri ${KIPRJMOD}/libraries/custom_parts/custom_parts.pretty)(options "")(descr ""))
+  (lib (name UltraLibrarian)(type KiCad)(uri ${KIPRJMOD}/libraries/UltraLibrarian/footprints.pretty)(options "")(descr ""))
+  (lib (name SnapEDA)(type KiCad)(uri ${KIPRJMOD}/libraries/snapeda/footprints.pretty)(options "")(descr ""))
+)

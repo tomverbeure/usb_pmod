@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AU-Y1007
+#
+DEF AU-Y1007 J 0 40 Y Y 1 L N
+F0 "J" -200 320 50 H V L BNN
+F1 "AU-Y1007" -200 -400 50 H V L BNN
+F2 "ASSMANN_AU-Y1007" 0 0 50 H I L BNN
+F3 "ASSMANN" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F5 "01" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 300 -200 -300 N
+P 2 0 0 10 -200 -300 200 -300 N
+P 2 0 0 10 200 -300 200 300 N
+P 2 0 0 10 200 300 -200 300 N
+X D+ 3 -400 0 200 R 40 40 0 0 B 
+X D- 2 -400 100 200 R 40 40 0 0 B 
+X VCC 1 -400 200 200 R 40 40 0 0 W 
+X GND 4 -400 -100 200 R 40 40 0 0 W 
+X SHIELD S1 -400 -200 200 R 40 40 0 0 W 
+X SHIELD S2 -400 -200 200 R 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
