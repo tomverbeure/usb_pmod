@@ -56,5 +56,9 @@ Use as USB Host:
 * Connect the J3-VBUS pin to an external +5V supply
 
 
+## BOM
+
+![BOM](./BOM.png)
+
 
 
