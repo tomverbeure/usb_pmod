@@ -28,8 +28,9 @@ USB Type-B connector footprint.
 You need to decide up front whether to use PMOD for USB host or device
 purposes, and change the soldered components accordingly.
 
-**Beware: PCBs are currently untested, and host modes will definitely
-not work because it doesn't have 5V wired up correctly!**
+It's a 4-layer PCB which is overkill, but there's currently no cost difference between
+2 and 4 layer PCBs at [JLCPCB](https://jlcpcb.com), so I didn't spend any time to make
+it work with 2 layers. It's definitely doable though!
 
 ![USB Combo PMOD Layout](./usb_combo_pmod_pcb.png)
 
